@@ -13,6 +13,62 @@
 }
 
 .products-header-1 {
+	/* Heading/4 */
+
+	font-family: "ITC Avant Garde Gothic Pro";
+	font-style: normal;
 	font-weight: 700;
 	font-size: 31.25px;
+	line-height: 130%;
+	/* or 41px */
+
+	display: flex;
+	align-items: flex-end;
+
+	/* Typography/Primary */
+
+	color: #000000;
+}
+
+.products-text-1 {
+	/* Body/Body */
+
+	font-family: "Avenir";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	/* or 26px */
+
+	/* Typography/Body */
+
+	color: #666666;
+
+	padding-top: 12px;
+}
+
+.products-button {
+	/* Button/Text Link Mobile */
+
+	font-family: "Avenir";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 12.8px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+
+	/* Buttons/Primary */
+
+	color: #000000;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+	text-decoration-line: underline;
+	padding-top: 32px;
 }
