@@ -101,7 +101,6 @@ body {
 	margin-right: 32px;
 }
 
-.ellipse img {
-	width: 12px;
-	height: 12px;
+.ellipse svg {
+	margin-right: 9px;
 }
