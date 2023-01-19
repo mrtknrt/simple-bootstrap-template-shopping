@@ -1,3 +1,12 @@
+@font-face {
+	font-family: "Avenir";
+	src: url("fonts/Avenir.ttc") format("truetype");
+	font-family: "ITC Avant Garde Gothic Pro";
+	src: url("ITCAvantGardePro-Bold.otf") format("otf");
+	font-weight: bold;
+	font-style: normal;
+}
+
 body {
 	height: auto;
 }
@@ -18,7 +27,7 @@ body {
 .products-header-1 {
 	/* Heading/4 */
 
-	font-family: "ITC Avant Garde Gothic Pro";
+	font-family: "ITC Avant Garde Gothic Pro", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 31.25px;
@@ -36,7 +45,7 @@ body {
 .products-text-1 {
 	/* Body/Body */
 
-	font-family: "Avenir";
+	font-family: "Avenir", sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -53,7 +62,7 @@ body {
 .products-button {
 	/* Button/Text Link Mobile */
 
-	font-family: "Avenir";
+	font-family: "Avenir", sans-serif;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 12.8px;
@@ -74,7 +83,12 @@ body {
 
 	text-decoration-line: underline;
 	padding-top: 32px;
-	text-underline-offset: 5px;
+	text-underline-offset: 10px;
+}
+
+.products-button a {
+	text-decoration: none;
+	color: #000000;
 }
 
 .products-cards {
