@@ -156,15 +156,73 @@ body {
 	}
 
 	.products {
-		padding-left: 24px;
-	}
-
-	.col-md-12 {
-		padding-left: 0px !important;
-		padding-right: 0px !important;
+		padding-left: 0;
 	}
 
 	.bg2 {
 		margin-top: -100px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.products-header-1 {
+		margin-top: -160px;
+		color: #ffffff;
+		font-size: 20px;
+		line-height: 26px;
+		font-size: 700;
+	}
+
+	.products-text-1 {
+		display: none;
+	}
+
+	.products {
+		padding-top: 0px;
+	}
+
+	.products-button {
+		padding-top: 25px;
+		/* text-button */
+
+		width: 146px;
+		height: 17px;
+
+		/* Button/Text Link Mobile */
+		font-family: "Avenir";
+		font-style: normal;
+		font-weight: 900;
+		font-size: 12.8px;
+		line-height: 17px;
+		display: flex;
+		align-items: center;
+		text-transform: capitalize;
+
+		/* Inside auto layout */
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+
+	.products-button a {
+		color: #ffffff;
+	}
+
+	.products-cards {
+		padding-top: 30px;
+	}
+
+	.products-cards img {
+		width: 148px !important;
+		height: auto;
+	}
+
+	.ellipse {
+		padding-top: 10px;
+	}
+
+	.ellipse svg {
+		margin-left: 0;
+		margin-right: 9px;
 	}
 }
