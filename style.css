@@ -149,3 +149,22 @@ body {
 	/* Typography/Primary */
 	color: #000000;
 }
+
+@media (max-width: 991px) {
+	.bg {
+		height: 437px;
+	}
+
+	.products {
+		padding-left: 24px;
+	}
+
+	.col-md-12 {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	.bg2 {
+		margin-top: -100px;
+	}
+}
