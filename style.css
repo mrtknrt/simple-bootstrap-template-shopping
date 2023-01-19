@@ -102,5 +102,50 @@ body {
 }
 
 .ellipse svg {
-	margin-right: 9px;
+	margin-left: 9px;
+}
+
+.brand {
+	/* Organic Skinny High Waist Jeans */
+
+	padding-top: 12px;
+
+	width: 230px;
+	height: 20px;
+
+	/* Body/Body Mobile */
+	font-family: "Avenir";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12.8px;
+	line-height: 160%;
+	/* or 20px */
+
+	/* Typography/Primary */
+	color: #000000;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.price-row {
+	margin-top: 12px;
+}
+
+.price {
+	/* Body/Body Bold Mobile */
+	font-family: "Avenir";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12.8px;
+	line-height: 160%;
+	/* or 20px */
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	/* Typography/Primary */
+	color: #000000;
 }
